@@ -7,6 +7,7 @@ let button;
 let lexicon;
 
 function setup() {
+  //createCanvas(300, 300);
   noCanvas();
   lexicon = new RiLexicon(); // let's use some of the RiTa vocabulary
   input = createInput('Gimme some of that chocolate chip cookie ice cream');
@@ -21,6 +22,7 @@ function setup() {
 
 function draw() {
   // put drawing code here
+  // more comments here
 }
 
 function goRita(){
